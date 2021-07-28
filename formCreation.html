@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title> Registration Form </title>
+</head>
+
+<body bgcolor=#E6E6FA>
+    <h2 align="center">EVENT REGISTRATION FORM</h2>
+    <form method="post">
+        <table align="center" frame="box" border="10">
+            <tr>
+                <td>Name</td>
+                <td><input type=name name="name" pattern="[A-Za-z]"></td>
+            </tr>
+            <tr>
+                <td>Dob</td>
+                <td><input type=date name="dob"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type=radio name="gender">male
+                    <input type=radio name="gender">female
+                    <input type=radio name="gender">others
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type=email name="email" required></td>
+            </tr>
+            <tr>
+                <td>Mobile no</td>
+                <td><input type=text name="mobile" size=10></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><select id="state">
+                        <option value=tamilnadu>TamilNadu</option>
+                        <option value=assam>Assam</option>
+                        <option value=karnataka>Karnataka</option>
+                        <option value=raipur>Chhattisgarh</option>
+                        <option value=hyderabad>Telangana</option>
+                        <option value=delhi>Andhra Pradesh</option>
+                        <option value=patna>Bihar</option>
+                        <option value=himachal pradesh>Himachal pradesh</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Pincode</td>
+                <td><input type=text name="pin" size=6 required></td>
+            </tr>
+            <tr>
+                <td rowspan=5 align="top">Events Intersted</td>
+            </tr>
+            <tr>
+                <td><input type=checkbox name="event2">Workshop</td>
+            </tr>
+            <tr>
+                <td><input type=checkbox name="event3">Internship</td>
+            </tr>
+            <tr>
+                <td><input type=checkbox name="event4">Technical Quiz</td>
+            </tr>
+            <tr>
+                <td><input type=checkbox name="event5">Paper Presentation</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td colspan=5 align="center"><input type="submit" name="submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
