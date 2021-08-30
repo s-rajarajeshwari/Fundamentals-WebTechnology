@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online Pharmacy Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="nav" style="background-color: #32aeb1;">
+        <a href="#"><img src="logo.png" alt="" id=logo></a>
+
+        <div class="menu">
+            <div class="dropdown">
+                <img src="medicine.svg" alt="" class="medicine">
+                <button class="btn dropdown-toggle dropbutton" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Medicine</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="covid.html">All Medicines</a>
+                  <a class="dropdown-item" href="#">Previously Ordered Products</a>
+                </div>
+              </div>
+              <img src="wellness.svg" alt="" class="wellness">
+              <a href="fitness.html" class="navbar ml-0 pl-0 mr-1 item" style="margin-left: 9% !important;">Wellness</a>
+              <img src="lab.svg" alt="" class="lab">
+              <a href="lab.html" class="navbar item" style="margin-left: 5% !important;">Lab Tests</a>
+        </div>
+
+        <div class="about">
+            <a href="bag.html" class="navbar">Cart</a>
+            <a href="profile.html" class="navbar">Login</a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="submenu">
+            <a href="covid.html" class="navigation">COVID Essentials</a>
+            <a href="diabetes.html" class="navigation">Diabetes</a>
+            <a href="fitness.html" class="navigation">Fitness</a>
+            <a href="mombaby.html" class="navigation">Mom & Baby</a>
+            <a href="surgicals.html" class="navigation">Surgicals</a>
+        </div>
+        <div class="border border-primary rounded-left loginbox">
+            <div class="text-center">
+                <img src="img_avatar.png" class="rounded pt-3 pb-3" alt="" width="40%" style="border-radius: 0% 20% !important;">
+            </div>
+      
+          <form>
+            <input type="text" class="form-control pt-2 pb-2 border border-primary textfield" name="login" placeholder="Login">
+            <br>
+            <input type="text" class="form-control border border-primary textfield" name="login" placeholder="Password">
+            <br>
+            <input type="button" class="form-control btn btn-primary textfield" value="Log In">
+          </form>
+          <br>
+          <div class="pl-5 ml-5 pb-3">
+            <a class="underlineHover" href="#">Forgot Password?</a>
+          </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
