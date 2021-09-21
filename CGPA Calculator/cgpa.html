@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body  style="background-color: #d4ebf2 !important;";>
+    <nav class="nav" style="background-color: #32aeb1;">
+        <div id="navmenu">
+            <a href="gpa.html">GPA Calculator</a>
+            <a href="cgpa.html">CGPA Calculator</a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <form style="padding: 3%;">
+            <center><p style="font-weight: bolder;color: crimson;">Enter GPA for Semesters</p></center>
+                <div id="half1">
+                    <label for="s1">1st Semester</label>
+                    <input type="text" id="s1"value="" style="margin-left: 7px;"><br><br>
+                    <label for="s2">2nd Semester</label>
+                    <input type="text" id="s2"value=""><br><br>
+                    <label for="s3">3rd Semester</label>
+                    <input type="text" id="s3"value="" style="margin-left: 5px;"><br><br>
+                    <label for="s4">4th Semester</label>
+                    <input type="text" id="s4"value="" style="margin-left: 5px;"><br><br>
+                </div>
+                <div id="half2">
+                    <label for="s5">5th Semester</label>
+                    <input type="text" id="s5"value=""><br><br>
+                    <label for="s6">6th Semester</label>
+                    <input type="text" id="s6"value=""><br><br>
+                    <label for="s7">7th Semester</label>
+                    <input type="text" id="s7"value=""><br><br>
+                    <label for="s8">8th Semester</label>
+                    <input type="text" id="s8"value=""><br><br>
+                </div>
+                <center>    
+                    <button type="button" class="btn-go" onclick="javascript:calculate()">Calculate</button><br><br>
+                    <label for="result" style="margin-right: 1%; font-weight: bolder; margin-top: 1%;">CGPA</label>
+                    <input type="text" id="result" value="-" style="text-align: center;">
+                </center>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
